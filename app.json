@@ -1,6 +1,7 @@
+
 {
   "expo": {
-    "name": "mobile",
+    "name": "GlucoTrack AI",
     "slug": "mobile",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -11,6 +12,7 @@
       "icon": "./assets/expo.icon"
     },
     "android": {
+      "package": "com.srinidhi.glucotrackai",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
@@ -33,7 +35,8 @@
           "imageWidth": 76
         }
       ],
-      "expo-status-bar"
+      "expo-status-bar",
+      "expo-notifications"
     ],
     "experiments": {
       "typedRoutes": true,
